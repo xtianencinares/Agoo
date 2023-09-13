@@ -244,5 +244,4 @@ def game_loop():
             pygame.display.update()
             CLOCK.tick(FPS)
 
-
 start_game()
