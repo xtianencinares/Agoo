@@ -30,7 +30,6 @@ class Topscore:
 
 topscore = Topscore()
 
-
 class Dragon:
     dragon_velocity = 10
 
