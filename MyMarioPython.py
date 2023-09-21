@@ -75,7 +75,6 @@ class Flames:
         if self.flames_img_rect.left > 0:
             self.flames_img_rect.left -= self.flames_velocity
 
-
 class Mario:
     velocity = 10
 
