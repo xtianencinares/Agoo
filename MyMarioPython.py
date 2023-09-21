@@ -20,7 +20,6 @@ font = pygame.font.SysFont('forte', 20)
 canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('Mario')
 
-
 class Topscore:
     def __init__(self):
         self.high_score = 0
