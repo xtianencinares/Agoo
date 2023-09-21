@@ -164,9 +164,6 @@ def check_level(SCORE):
         LEVEL = 4
 
 
-
-
-
 def game_loop():
     while True:
         global dragon
