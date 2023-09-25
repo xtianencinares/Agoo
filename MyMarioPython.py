@@ -99,7 +99,6 @@ class Mario:
         if self.down:
             self.mario_img_rect.bottom += 10
 
-
 def game_over():
     pygame.mixer.music.stop()
     music = pygame.mixer.Sound('mario_dies.wav')
