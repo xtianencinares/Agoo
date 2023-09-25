@@ -67,7 +67,6 @@ class Flames:
         self.flames_img_rect.right = dragon.dragon_img_rect.left
         self.flames_img_rect.top = dragon.dragon_img_rect.top + 30
 
-
     def update(self):
         canvas.blit(self.flames_img, self.flames_img_rect)
 
