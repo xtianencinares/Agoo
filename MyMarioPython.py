@@ -57,7 +57,6 @@ class Dragon:
         elif self.down:
             self.dragon_img_rect.top += self.dragon_velocity
 
-
 class Flames:
     flames_velocity = 20
 
