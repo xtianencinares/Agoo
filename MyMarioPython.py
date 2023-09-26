@@ -17,6 +17,7 @@ fire_img_rect.left = 0
 CLOCK = pygame.time.Clock()
 font = pygame.font.SysFont('forte', 20)
 
+
 canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('Mario')
 
