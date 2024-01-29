@@ -7,7 +7,7 @@ def guessing_game():
     secret_number = random.randint(1, 100)
     
     attempts = 0
-    
+     
     while True:
         # Get player's guess
         guess = int(input("Enter your guess (between 1 and 100): "))
