@@ -27,7 +27,7 @@ class Topscore:
         if score > self.high_score:
          self.high_score = score
     return self.high_score
-
+ 
 topscore = Topscore()
 
 class Dragon:
