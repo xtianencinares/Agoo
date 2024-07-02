@@ -92,7 +92,7 @@ class Mario:
                 self.mario_score = SCORE
         if self.mario_img_rect.bottom >= fire_img_rect.top:
             game_over()
-            if SCORE > self.mario_score:
+            if SCORE > self.mario_score: 
                 self.mario_score = SCORE
         if self.up:
             self.mario_img_rect.top -= 10
