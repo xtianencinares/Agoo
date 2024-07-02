@@ -234,6 +234,7 @@ def game_loop():
                         mario.mario_score = SCORE
             pygame.display.update()
             CLOCK.tick(FPS)
+            
 
 
 start_game()
