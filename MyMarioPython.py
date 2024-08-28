@@ -236,7 +236,6 @@ def game_loop():
             CLOCK.tick(FPS)
             
 
-
 start_game()
 
 
