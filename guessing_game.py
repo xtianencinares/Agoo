@@ -13,7 +13,7 @@ def guessing_game():
         guess = int(input("Enter your guess (between 1 and 100): "))
         attempts += 1
         
-        # Check if the guess is correct.
+        # Check if the guess is correct
         if guess == secret_number:
             print(f"Congratulations! You guessed the correct number {secret_number} in {attempts} attempts.")
             break
